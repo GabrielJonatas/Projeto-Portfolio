@@ -6,24 +6,31 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<title>Meu Perfil</title>
+		<title>Portfolio</title>
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css">
 	</head>
 	<body>
-		<!-- Cabeçalho da Página (header) -->
-		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
-				</div>
+        <!-- Cabeçalho da Página (header) -->
+        <header>
 
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-					<!-- Menu da Página -->
-					<nav>
-						<!-- Marcadores não ordenados + links -->
+            <!-- Div Conteudo do Cabeçalho -->
+            <div id="header_content" class="flex">
+
+                <!-- Titulo do Cabeçalho -->
+                <div id="titulo">
+
+                    <h1>Portfolio</h1>
+
+                </div>
+
+                 <!-- Conteudo do Menu da Página (header) -->
+                <div id="menu">
+
+                    <!-- Menu da Página -->
+                    <nav>
+
+                        <!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
 								<a href="index.html"> Home </a>
@@ -32,17 +39,17 @@
 								<a href="contato.html"> Contato </a>
 							</li>
 						</ul>
+
 					</nav>
-				</div>
-			</div>
-		</header>
+
+                </div>
+            </div>
+
+        </header>
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
-
-			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
-
+			 <section id="contact" class="flex">
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
                     <label for="nome">Nome: </label>
@@ -88,49 +95,50 @@
                 </form>
 
                 <!-- Seção do Google Maps -->
-                <article id="mapa">
-                    
-                    <p>Centro</p>
-	                    <p>São Caetano do Sul - SP</p>
+                <section id="mapa" class="flex_start">
+					
+					<div id="endereco">
+						<p>São Caetano do Sul - SP</p>
+					</div>
 
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6148.258410582804!2d-46.57938738982669!3d-23.612353542757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c8d37911675%3A0xdfcec15bdb1e3607!2sCentro%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1736353279885!5m2!1spt-BR!2sbr" 
-                            width="600" 
-                            height="450" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"
-                            >
-                        </iframe>
-                </article>
+                    <iframe 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29243.414841113055!2d-46.60387684762086!3d-23.62487963436022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c58617ee83b%3A0xc53b6605800244b2!2sS%C3%A3o%20Caetano%20do%20Sul%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1736440991694!5m2!1spt-BR!2sbr" 
+						width="400" 
+						height="250" 
+						frameborder="0"
+						style="border:0;" 
+						allowfullscreen=""
+						aria-hidden="false"
+						tabindex="0"
+						id="mapa"
+						>
+					</iframe>
+                </section>
                 
             </section>
 
 		</main>
 
-		<!-- Rodapé da Página (footer) -->
-		<footer>
+        <!-- Rodapé da Página (footer) -->
+        <footer class="flex">
 
-			<!-- Seção de Contato - Redes Sociais -->
+			<!-- Seção de Contato - Redes Sociais-->
             <section id="redes_sociais">
 
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
+				<a href="https://www.linkedin.com/in/gabrieljonatas/">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+				</a>
+				<a href="https://github.com/GabrielJonatas">
+					<img src="assets/img/github.svg" alt="Github" />
+				</a>
 
-            </section>
+			</section>
 
 			<h3>
 				Feito com 🧡 por Gabriel - 2025
 			</h3>
 
-		</footer>
+        </footer>
+
 	</body>
 </html>
