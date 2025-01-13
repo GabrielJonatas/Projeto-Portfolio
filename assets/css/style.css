@@ -10,16 +10,16 @@
 }
 
  :root {
-    --purple-200: #9a7bd1;
-    --purple-500: #6b36c8;
-    --purple-800: #441f88;
+    --true-blue: #576CA8;
+    --marian-blue: #274690;
+    --space-cadet: #1B264F;
 
-    --black-800: #171717;
+    --jet: #302B27;
 
-    --gray-200: #cccccc;
-    --gray-400: #505861;
+    --silver: #C4C1C2;
+    --gray-400: #938F8E;
 
-    --white: #F9F9F9;
+    --white-smoke: #F5F3F5;
 }
 
 html {
@@ -28,20 +28,20 @@ html {
 }
 
 body {
-    background: var(--gray-200);
-    color: var(--black-800);
+    background: var(--silver);
+    color: var(--jet);
 } 
 
 /* Definindo as configurações de títulos e paragrafo */
 h1{
-    color: var(--white);
+    color: var(--white-smoke);
     font-size: 2rem;
     font-weight: 700;
 }
 
 h2{
     padding: 1rem;
-    color: var(--black-800);
+    color: var(--jet);
     font-size: 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -49,7 +49,7 @@ h2{
 
 h3{
     padding: 1rem;
-    color: var(--white);
+    color: var(--white-smoke);
     font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
@@ -83,8 +83,8 @@ p{
     width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--purple-800);
-    border-bottom: 1px solid var(--purple-500);
+    background-color: var(--space-cadet);
+    border-bottom: 1px solid var(--marian-blue);
 }
 
 #menu li {
@@ -94,7 +94,7 @@ p{
 
 #menu li a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--white-smoke);
     font-size: 20px;
 }
 
@@ -114,12 +114,12 @@ p{
 #conteudo{
     flex-direction: row;
     gap: 2rem;
-
 }
 
 .img_profile{
-    width: 200px;
+    width: 20%;
     border-radius: 50%;
+    margin: auto;
 }
 
 /* Estilização da Seção Video */
@@ -136,8 +136,8 @@ footer{
     flex-direction: column;
     margin: 0;
     padding: 2rem;
-    color: var(--white);
-    background-color: var(--purple-500);
+    color: var(--white-smoke);
+    background-color: var(--marian-blue);
     font-weight: bold;
     text-align: center;
 }
@@ -220,16 +220,16 @@ form span{
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--purple-800);
-    border: 1px solid var(--purple-500);
-    color: var(--white);
+    background: var(--space-cadet);
+    border: 1px solid var(--marian-blue);
+    color: var(--white-smoke);
     border-radius: 0.75rem;
     font-weight: 700;
     font-size: 1rem;
 }
 
 form button:hover {
-    background: var(--purple-500);
+    background: var(--marian-blue);
 }
 
 /* Estilização do Mapa */
